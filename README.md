@@ -419,7 +419,7 @@ Step 6: inventory_optimizer.py converts forecasts → decisions
 Step 7: Dashboard runs scenario simulation
         ↓ Buyer adjusts sliders → safety stock recalculates live
         ↓ "What if lead time increases from 5 to 10 days?" → instant answer
-
+```
 ##Dashboard Outputs
 ![](images/dashboard/web1.png)
 
@@ -427,7 +427,7 @@ Step 7: Dashboard runs scenario simulation
 
 ![](images/dashboard/web3.png)
 
-```
+
 
 ---
 
