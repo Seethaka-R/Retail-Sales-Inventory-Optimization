@@ -1,0 +1,66 @@
+# ── Virtual Environment ────────────────────────────────────────
+venv/
+env/
+retail_env/
+.env
+*.env
+
+# ── Python Cache ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# ── Jupyter Notebooks ──────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data Files (too large for GitHub) ─────────────────────────
+# Comment these out if your CSVs are small (under 50MB)
+# data/raw/
+# data/processed/
+# data/outputs/
+
+# Keep outputs folder but ignore large files
+*.csv.gz
+*.parquet
+
+# ── Trained Models (can be large) ─────────────────────────────
+# Uncomment if model file exceeds 100MB
+# models/*.pkl
+
+# ── OS Files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temporary Files ───────────────────────────────────────────
+*.tmp
+*.temp
+tmp/
+temp/
+
+# ── Coverage / Testing ────────────────────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
